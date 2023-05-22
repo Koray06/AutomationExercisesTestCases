@@ -101,6 +101,10 @@ public class AutoExePage {
     //Your email or password is incorrect!
     @FindBy(xpath = "//p[text()='Your email or password is incorrect!']")
     public WebElement passwordIsIncorrect;
+    //logut butonu
     @FindBy(xpath = "//a[@href=\"/logout\"]")
     public WebElement buttonLogout;
+    //Email Address already exist!
+    @FindBy(xpath = "//p[text()='Email Address already exist!']")
+    public WebElement EmailAlreadyExist;
 }
